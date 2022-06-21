@@ -1,0 +1,188 @@
+* {
+	background-color: #1f2937;
+}
+
+@font-face {
+	font-family: chineserocks;
+	src: url(chineserocks.TTF);
+}
+
+.header {
+	overflow: hidden;
+}
+
+.header img {
+	height: 35px;
+	width: 35px;
+	padding: 10px 5px 5px 40px;
+}
+
+.header .link {
+	float: right;
+	color: whitesmoke;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 17px;
+}
+
+.one {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.one .col1 {
+	width: 50%;
+	padding: 75px;
+}
+
+.one .col1 h1 {
+	font-family: chineserocks;
+	color: red;
+	font-size: 32px;
+	text-align: center;
+}
+
+.one .col1 p {
+	font-style: italic;
+	font-size: 18px;
+	color: whitesmoke;
+}
+
+.one .col1 a,
+.four .col1 a {
+	font-family: chineserocks;
+	background-color: red;
+	border: 2px solid black;
+	color: black;
+	padding: 10px 10px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px 280px;
+	cursor: pointer;
+}
+
+.one .col2 {
+	width: 50%;
+}
+
+.one .col2 img {
+	display: block;
+	height: 300px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.two div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.two h1 {
+	font-family: chineserocks;
+	text-align: center;
+}
+
+.two figure img {
+	border: 2px solid black;
+	display: block;
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.two figure figcaption {
+	font-weight: bold;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.three h1 {
+	color: red;
+	font-family: chineserocks;
+	text-align: center;
+}
+
+.three .row {
+	color: whitesmoke;
+	padding-left: 90px;
+	padding-right: 90px;
+	margin-left: 90px;
+	margin-right: 90px;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.three .row1 {
+	color: red;
+	text-align: right;
+	padding-left: 90px;
+	padding-right: 90px;
+	margin-left: 90px;
+	margin-right: 90px;
+	font-size: 20px;
+}
+
+.four {
+	border: 5px solid red;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.four .col1 {
+	width: 50%;
+	padding: 75px;
+}
+
+.four .col1 .h1 {
+	font-size: 30px;
+	text-align: center;
+	font-family: chineserocks;
+	color: red;
+}
+
+.four .col1 p {
+	color: white;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.four .col1 a {
+	font-family: chineserocks;
+	background-color: red;
+	border: 2px solid black;
+	color: black;
+	text-align: center;
+	margin: 10px 250px;
+	cursor: pointer;
+}
+
+.four .col2 {
+	width: 50%;
+}
+
+.four .col2 img {
+	height: 300px;
+	width: 300px;
+	display: block;
+	height: 300px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.five p {
+	text-align: center;
+	color: white;
+}
